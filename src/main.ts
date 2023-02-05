@@ -9,12 +9,12 @@ export default class D2Plugin extends Plugin {
   processor: D2Processor;
 
   async onload() {
-    addIcon("recompile", RecompileIcon);
+    addIcon("file", RecompileIcon);
     await this.loadSettings();
     this.addSettingTab(new D2SettingsTab(this.app, this));
 
     const processor = new D2Processor(this);
-    this.registerMarkdownCodeBlockProcessor("d2", processor.attemptExport);
+    this.registerMarkdownCodeBlockProcessor("art", processor.attemptExport);
 
     this.processor = processor;
   }

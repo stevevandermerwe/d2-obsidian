@@ -1,10 +1,10 @@
 {
-  "id": "d2-obsidian",
-  "name": "D2",
+  "id": "art",
+  "name": "Art2D2",
   "version": "1.1.0",
   "minAppVersion": "0.15.0",
-  "description": "The official D2 plugin for Obsidian. D2 is a modern diagram scripting language that turns text to diagrams.",
-  "author": "Terrastruct",
-  "authorUrl": "https://d2lang.com",
+  "description": "Generate ART diagram from a vault.",
+  "author": "Steve",
+  "authorUrl": "https://www.honeybadgers.online",
   "isDesktopOnly": true
 }

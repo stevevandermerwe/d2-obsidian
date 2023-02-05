@@ -65,7 +65,11 @@ export class D2Processor {
     }, svgEl.outerHTML);
   };
 
-  insertImage(image: string, el: HTMLElement, ctx: MarkdownPostProcessorContext) {
+  insertImage(
+    image: string,
+    el: HTMLElement,
+    ctx: MarkdownPostProcessorContext
+  ) {
     const parser = new DOMParser();
     const svg = parser.parseFromString(image, "image/svg+xml");
     const svgEl = svg.documentElement;
