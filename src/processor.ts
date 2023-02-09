@@ -31,6 +31,7 @@ export class D2Processor {
     el: HTMLElement,
     ctx: MarkdownPostProcessorContext
   ) => {
+ 
     el.createEl("h6", {
       text: "Generating D2 diagram...",
       cls: "D2__Loading",

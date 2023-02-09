@@ -1,17 +1,4 @@
-const LAYOUT_ENGINES = {
-  DAGRE: {
-    value: "dagre",
-    label: "dagre",
-  },
-  ELK: {
-    value: "elk",
-    label: "ELK",
-  },
-  TALA: {
-    value: "tala",
-    label: "TALA",
-  },
-};
+
 
 const RecompileIcon = `
 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -21,4 +8,4 @@ const RecompileIcon = `
 </svg>
 `;
 
-export { LAYOUT_ENGINES, RecompileIcon };
+export {RecompileIcon };
